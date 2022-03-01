@@ -15,10 +15,8 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css"> 
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> 
 
-    <script src="https://unpkg.com/swiper/js/swiper.js">  </script> 
-    <script src="https://unpkg.com/swiper/js/swiper.min.js">  </script> 
-    <script src="assets/js/index.js"> </script> 
-    <script src="assets/js/jquery-3.0.0.js"> </script> 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="assets/js/Index/index.js"></script>
 </head>
 <body>
        <div class="main">
@@ -1378,44 +1376,44 @@
                         </div>
                         <div class="body_container-product-sale">
                             <div class="product_sale-active-list">
-                                    <div class="product_sale-active product_sale-active-item" id="productSale1"> 
+                                    <div class="product_sale-active-item" id="productSaleTab1"> 
                                         <h3 class="product_sale-title">
                                             Loa
                                         </h3>
                                         <span>Loa Xịn Giá Mịn</span> 
                                     </div>
-                                    <div class="product_sale-active-item" id="productSale2">
+                                    <div class="product_sale-active-item" id="productSaleTab2">
                                         <h3 class="product_sale-title">
                                             8/3
                                         </h3>
                                         <span>Tặng Nàng Thật Nhiều Quà</span> 
                                     </div>
-                                    <div class="product_sale-active-item">
+                                    <div class="product_sale-active-item" id="productSaleTab3">
                                         <h3 class="product_sale-title">
                                             Ổ Cứng
                                         </h3>
                                         <span>Lưu Trữ Tẹt Ga</span> 
                                     </div>
-                                    <div class="product_sale-active-item">
+                                    <div class="product_sale-active-item" id="productSaleTab4">
                                         <h3 class="product_sale-title">
                                             Lego
                                         </h3>
                                         <span>Giảm Đến 42%</span>                                     
                                     </div>
-                                    <div class="product_sale-active-item">
+                                    <div class="product_sale-active-item" id="productSaleTab5">
                                         <h3 class="product_sale-title">
                                             Thiết Bị Trình Chiếu
                                         </h3>
                                         <span> Off Up To 24%</span>                                    
                                     </div>
-                                    <div class="product_sale-active-item">
+                                    <div class="product_sale-active-item" id="productSaleTab6">
                                         <h3 class="product_sale-title">
                                             Bosch
                                         </h3>
                                         <span>Chỉ Từ 729K</span>                                   
                                     </div>
                             </div>
-                            <div class="product_sale">
+                            <div class="product_sale" id="productListSaleTab1">
                                     <img src="assets/img/img-big/1.PNG" alt="" class="product_sale-img"> 
                                     <div class="product_sale-list">
                                         <div class="product_sale-time">
@@ -1505,6 +1503,96 @@
                                         
                                         </div>
                             </div>
+                            <div class="product_sale" id="productListSaleTab2" style="display:none;">
+                                <img src="assets/img/img-big/2.PNG" alt="" class="product_sale-img"> 
+                                <div class="product_sale-list">
+                                    <div class="product_sale-time">
+                                        <!-- <p class="product_sale-end-time">
+                                            Kết thúc sau 
+                                            <span>10</span>
+                                            ngày
+                                        </p> -->
+
+                                        <div class="product_sale-number">
+                                            00
+                                        </div>
+                                        <div class="product_sale-number">
+                                            00
+                                        </div>
+                                        <div class="product_sale-number">
+                                            00
+                                        </div>
+                                    </div>
+                                    <div class="product_sale-content">
+                                        <div class="product_sale-content-btn">
+                                            <a href="">Xem Tất Cả ></a>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <div class="product-avatar">
+                                                    <img src="assets/img/img-big/9.PNG" alt="">
+                                                </div>
+                                                <div class="product-title">
+                                                    Loa bluetooth 5.1 Logitech Z107 (Đen)
+                                                </div>
+                                                <div class="product-new-price">
+                                                    2.199.000 đ
+                                                </div>
+                                                <div class="product-old-price">
+                                                    <p>2.999.000 đ</p>
+                                                    <span>27%</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="product-avatar">
+                                                    <img src="assets/img/img-big/9.PNG" alt="">
+                                                </div>
+                                                <div class="product-title">
+                                                    Loa bluetooth 5.1 Logitech Z107 (Đen)
+                                                </div>
+                                                <div class="product-new-price">
+                                                    2.199.000 đ
+                                                </div>
+                                                <div class="product-old-price">
+                                                    <p>2.999.000 đ</p>
+                                                    <span>27%</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="product-avatar">
+                                                    <img src="assets/img/img-big/9.PNG" alt="">
+                                                </div>
+                                                <div class="product-title">
+                                                    Loa bluetooth 5.1 Logitech Z107 (Đen)
+                                                </div>
+                                                <div class="product-new-price">
+                                                    2.199.000 đ
+                                                </div>
+                                                <div class="product-old-price">
+                                                    <p>2.999.000 đ</p>
+                                                    <span>27%</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="product-avatar">
+                                                    <img src="assets/img/img-big/9.PNG" alt="">
+                                                </div>
+                                                <div class="product-title">
+                                                    Loa bluetooth 5.1 Logitech Z107 (Đen)
+                                                </div>
+                                                <div class="product-new-price">
+                                                    2.199.000 đ
+                                                </div>
+                                                <div class="product-old-price">
+                                                    <p>2.999.000 đ</p>
+                                                    <span>27%</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                    </div>
+                        </div>
                                 
                         </div>
                         <img src="assets/img/img-big/10.PNG" style="width: 1200px; margin: 25px 0;" alt="">
